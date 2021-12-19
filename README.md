@@ -21,9 +21,30 @@ Developed by:
 RegisterNumber:  
 */
 ```
+def gcd():
+
+n1=int(input())
+
+n2=int(input())
+
+if(n1>n2): 
+
+smaller=n2
+
+else:
+
+smaller=n1
+
+for i in range(1,smaller+1):
+
+if(n1%i==0 and n2%i==0):
+
+GCD=i
+
+print("GCD of two numbers is:",GCD)
 
 ## Output:
-![gcd of two number](gcd.png)
+![output](https://github.com/Saibandhavi75/GCD-of-two-numbers/blob/main/gcd%20of%20two%20numbers.jpeg?raw=true)
 
 
 ## Result:
